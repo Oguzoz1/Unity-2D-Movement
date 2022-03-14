@@ -1,5 +1,6 @@
     using UnityEngine;
     
+ 
     [SerializeField] float speed;
     private Rigidbody2D rb;
     
