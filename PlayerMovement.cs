@@ -31,7 +31,7 @@
 
            
         }
-
+         //Assuming the player's face is looking left. Inputs will also rotate the player's face of direction
         if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
         {
             var ySpeed = speed * Time.deltaTime;
